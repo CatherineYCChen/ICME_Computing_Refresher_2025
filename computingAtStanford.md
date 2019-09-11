@@ -1,25 +1,25 @@
 # Computing at Stanford
 In this lesson, we're going to talk about how to access the various computing resources at Stanford. Specifically we will talk about:
-1. Connecting to Wifi
+1. Connecting to Wi-Fi
 2. Two-Factor Authentication
 3. Stanford Computing Clusters
 4. Your website
 5. Miscellaneous Resources
 
-## Connecting to Wifi 
-If you haven't done this already, the first thing you will probably want to do is connect to the Wifi at Stanford. 
+## Connecting to Wi-Fi
+If you haven't done this already, the first thing you will probably want to do is connect to the Wi-Fi at Stanford.
 There are a few different networks on campus with different purposes:
 * Stanford Visitor - Open to anyone, accept agreement to connect
 * Stanford - General network, requires SUID login
 * Stanford Secure - Secure network, requires installing Stanford security configuration
-* Eduroam - For people visiting campus, you can use at other universities
+* Eduroam - For students visiting campus, you can use at other universities
 * Stanford Residences - Use in residences
 
-I recommend using Stanford or Stanford Secure, but some people use Stanford Visitor because there is no login or software involved. For now, try connecting to Stanford Visitor or Stanford and you can try connecting to Stanford Secure after class, since that requires some more work. This link will give you information about all of the networks: 
+I recommend using Stanford or Stanford Secure. For now, try connecting to Stanford Visitor or Stanford and you can try connecting to Stanford Secure after class, since that requires some more work. This link will give you information about all of the networks:
 https://uit.stanford.edu/service/wirelessnet
 
 ## Two-Factor Authentication
-When you log onto most Stanford services, you will need to use two-factor authentication to log in. This website gives the information on how to set everything up: https://uit.stanford.edu/service/authentication/twostep
+When you log onto many Stanford services, you will need to use two-factor authentication to log in. This website gives the information on how to set everything up: https://uit.stanford.edu/service/authentication/twostep
 
 To summarize, you can put in your phone number to set up the following methods of authentication:
 1. Duo Mobile push notification
@@ -27,17 +27,23 @@ To summarize, you can put in your phone number to set up the following methods o
 3. Phone call
 4. SMS text message
 
-While all of these methods work, I strongly recommend getting the Duo Mobile app on your phone, as I find the push notifications the easiest and most consistent because they do not require typing in a code or phone service.
+While all of these methods work, I strongly recommend getting the Duo Mobile app if you have a smartphone, as I find the push notifications the easiest and most consistent because they do not require typing in a code or phone service.
+
+## Virtual private network (VPN)
+Some Stanford services (for instance, connection to certain computing clusters) require one to be logged into the Stanford network. If you are off campus, you can still use these services by connecting to a VPN. Instructions for installing a VPN client are here: https://uit.stanford.edu/service/vpn.
+
+When you open the VPN client, it will look something like this:
+![Loading screenshot...](https://raw.githubusercontent.com/nimz/ICME_Computing_Refresher_2019/master/images/vpn.png)
 
 ## Cluster Computing
 ### What is cluster computing?
-A computer cluster is a group of computers that can be accessed by a group of users. Such systems are used by universities and companies in order to give access to a limited number of software licenses, more efficiently distribute computing power, and to make it easier to manage the organizations computing resources. In a compute cluster, a group of users can remotely access a group of computers. A cluster consists of **login nodes** and **compute nodes**. 
+A computer cluster is a group of computers that can be accessed by a group of users. Such systems are used by universities and companies in order to give access to a limited number of software licenses, more efficiently distribute computing power, and to make it easier to manage the organizations computing resources. In a compute cluster, a group of users can remotely access a group of computers. A cluster consists of **login nodes** and **compute nodes**.
 
-Login nodes are the nodes that invidual users connect to to edit files, compile code, submit jobs to the compute nodes, and do light post-processing. Since only light work is done on login nodes, they are less powerful than compute nodes. When you connect to a cluster, you will be put onto the least used login node to do these things. Since multiple users could be on the same login node at once, you are only allowed to do light work, so that the system is functional for all users. 
+Login nodes are the nodes that invidual users connect to to edit files, compile code, submit jobs to the compute nodes, and do light post-processing. Since only light work is done on login nodes, they are less powerful than compute nodes. When you connect to a cluster, you will be put onto the least used login node to do these things. Since multiple users could be on the same login node at once, you are only allowed to do light work, so that the system is functional for all users.
 
-Compute nodes are more powerful computers used primarily for tasks requiring more power than everyday tasks. To use a compute node, a user submits a **job** to a **scheduler** which then determines how to assign users to compute nodes. Some examples of job schedulers are SLURM and PBS. When requesting a job, you can specify the number of nodes to user, amount of time needed, what specific types of computers to use, and many other options. Since these computers are assigned to individual users and are designed to only be used for computing, there are very few background processes running, allowing the hardware to be used most efficiently. In general, most jobs just run the programs you give them automatically when the scheduler assigns you to a group of nodes, but you can also request interactive jobs as well if you wish to use an interactive program, like Matlab or Paraview. 
+Compute nodes are more powerful computers used primarily for tasks requiring more power than everyday tasks. To use a compute node, a user submits a **job** to a **scheduler** which then determines how to assign users to compute nodes. Some examples of job schedulers are SLURM and PBS. When requesting a job, you can specify the number of nodes to user, amount of time needed, what specific types of computers to use, and many other options. Since these computers are assigned to individual users and are designed to only be used for computing, there are very few background processes running, allowing the hardware to be used most efficiently. In general, most jobs just run the programs you give them automatically when the scheduler assigns you to a group of nodes, but you can also request interactive jobs as well (for instance if you wish to use an interactive program, such as MATLAB or ParaView).
 
-In addition to all of these uses, some clusters are just used as a convinient way for an organization to allow access to a wide range of software to its users. For example, Stanford has a limited number of MATLAB licenses, so it gives students access to them through a cluster.
+In addition to all of these uses, some clusters are just used as a convenient way for an organization to allow access to a wide range of software to its users. For example, Stanford has a limited number of MATLAB licenses, so it gives students access to them through a cluster.
 
 ### Clusters at Stanford
 In this section we will introduce the different computing clusters at Stanford and more depth on Farmshare in particular. This section will use some amount of Unix, which will be covered in greater detail in a later section.
@@ -57,7 +63,7 @@ The information about most of the clusters can be found at https://srcc.stanford
   * https://icme.stanford.edu/resources/hpc-compute-resources/icme-cluster
   * Accessible to anyone at Stanford by request
   * Usable for researtch requiring GPUs
-  * 288 CPU core, 10 NVIDIA Tesla K80s, 1.2 TB
+  * 288 CPU core, 10 NVIDIA Tesla K80s, 2 16GB NVIDIA Tesla V100s, 1.2 TB storage
 * HPCC Clusters
   * https://hpcc.stanford.edu/
   * School of Engineering access by faculty request
@@ -67,9 +73,10 @@ The information about most of the clusters can be found at https://srcc.stanford
   * XStream GPU Cluster
   * Stanford Genomics Clusters
   * Population Health Sciences
-  
-### Farmshare  
-As I said before, Farmshare is a cluster open to everyone at Stanford that can be used for pretty much anything from coursework to research. Additionally, it can be used to access Stanford software. Withing Farmshare, there are three server types:
+  * And more...
+
+### Farmshare
+Farmshare is a cluster open to everyone at Stanford that can be used for pretty much anything from coursework to research. Additionally, it can be used to access Stanford software. Withing Farmshare, there are three server types:
 * *rice* - Login nodes for running smaller programs, accessing files, and submitting jobs.
 * *wheat* - Compute nodes with more CPU power and memory.
 * *oats* - GPU compute nodes.
@@ -113,7 +120,7 @@ Farmshare is how the university distributes access to a variety of software. The
 To access any of these programs, use `module load [name of module]` to load the module, and then use the name of the command to run the program. Access to many of these programs is also available on the computers in the libraries around campus, like the Turman Engineering Library in Huang.
 
 ### AFS
-AFS stands for Andrew File System. It is an internal file system at Stanford that you can use to store files that is accessible from Farmshare and in the libraries on campus. For general file storing, I would use Box or Drive, but this is one way to pass files to and from Farmshare without using any outside software. It is accessible at https://afs.stanford.edu/.  
+AFS stands for Andrew File System. It is an internal file system at Stanford that you can use to store files that is accessible from Farmshare and in the libraries on campus. For general file storing, I would use Box or Drive, but this is one way to pass files to and from Farmshare without using any outside software. It is accessible at https://afs.stanford.edu/.
 
 ## Your Website
 Stanford gives everyone a domain for your own website. It is accessible at stanford.edu/~[your suid] . This website can be updated by putting html files into the WWW directory in you AFS. index.html will serve as your homepage.
