@@ -1,40 +1,40 @@
 # ICME Computing Refresher
 
 * Location: 
-* Time: September 13-14, 2:30PM - 3:45PM, Friday
+* Time: Thursday, September 12, 2:30PM-3:45PM and Friday, September 13, 1:00PM - 2:15PM
 
 ----
 
-* Instructor: Steven Brill
-* Email: [srbrill@stanford.edu](mailto:srbrill@stanford.edu)
+* Instructor: Nimit Sohoni
+* Email: [nims@stanford.edu](mailto:nims@stanford.edu)
 
 ---
 
 ### Overview
 
 This course is intended to introduce students to the computing tools available at Stanford.
-First, we will cover how to use connect to and used Stanford computing tools such as the Wifi, computing clusters, and software.
-Then, we will introduce/remind students how to use Linux and Bash scripting.
-Next, we will dicuss commonly used computing tools such as MATLAB, Jupyter notebooks, Git, and Latex.
-Finally, we will briefly show students useful software that is commonly used by ICME students such as Sublime, Julia, and others.
+First, we will cover how to use connect to and use Stanford computing tools such as the Wi-Fi, computing clusters, and software.
+Then, we will introduce basic usage of the Linux console and Bash scripting.
+Next, we will dicuss commonly used computing tools such as MATLAB, Jupyter notebooks, Git, and LaTeX.
+Finally, we will briefly show students some additional useful software and languages commonly used by ICME students such as Julia, Sublime Text, and others.
 
 A list of topics is as follows:
 
 * Introduction to Stanford Computing
-  * Stanford Wifi
+  * Stanford Wi-Fi
   * Connecting to Stanford computing clusters
   * Accessing programs on the cluster
-* Linux and Bash Scripting
+* Linux and Bash scripting
   * Navigating the Linux environment
   * SLURM job submission
 * Git
   * Basic git commands
   * Creating git projects
   * Using and modifying existing git projects
-* Latex
+* LaTeX
   * Basic syntax
   * Tips and tricks
-* MATLAB
+* MATLAB/Octave
   * Basic syntax
   * Matrices
   * Functions/function handles
@@ -43,6 +43,6 @@ A list of topics is as follows:
   * Text editors
   * Julia
   * Overleaf
-  * Jupyter Notebook
+  * Jupyter Notebooks
   * More
 
