@@ -1,6 +1,9 @@
 # Miscellaneous
 This is just a place where I wanted to plug a few useful tools and resources that are useful for a variety of computing needs.
 
+## Slack
+[Slack](https://slack.com/downloads/) is a chat and collaboration application. Many research groups (and companies) use it, and ICME has one too. I highly recommend joining the ICME Slack (if in ICME).
+
 ## Markdown
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
@@ -44,5 +47,10 @@ Here are a list of scientific computing courses at Stanford:
 This is not a complete list. Of course, the CS department in particular offers several other courses that may be of interest.
 
 ## Stack Overflow
-
 Have a programming-related question that can't be answered? You can likely find an answer here: https://stackoverflow.com, or ask a question yourself. https://math.stackexchange.com/ is a similar site for mathematics questions.
+
+## arXiv
+Most of you are probably familiar with this, but [arXiv](https://arxiv.org/) is an online archive for scientific research papers and preprints, with a particular emphasis on the mathematical and computational fields. ([biorXiv](https://www.biorxiv.org/) is a similar site more geared towards biological disciplines.)
+
+## LeetCode
+[LeetCode](https://leetcode.com) is a site for practicing coding problems, particularly interview-style questions. Very useful for those of you considering a career in tech.
