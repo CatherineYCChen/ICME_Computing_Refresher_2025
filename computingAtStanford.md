@@ -43,6 +43,10 @@ Stanford has licenses for several software products. For a full list and to down
 
 Printing from your personal device at Stanford takes a few minutes to set up. A walkthrough is here: https://studenttechnology.stanford.edu/printing/download-install-print-drivers.
 
+More detailed walkthrough (Mac): https://stanford.service-now.com/it_services?id=kb_article&sys_id=a36ebf6fdb9d1f4019d458d6dc961993.
+
+You can also print from the library computers, which does not require any software installation. See http://library.stanford.edu/using/print-copy-scan
+
 ## Cluster Computing
 ### What is cluster computing?
 A computer cluster is a group of computers that can be accessed by a group of users. Such systems are used by universities and companies in order to give access to a limited number of software licenses, more efficiently distribute computing power, and to make it easier to manage the organizations computing resources. In a compute cluster, a group of users can remotely access a group of computers. A cluster consists of **login nodes** and **compute nodes**.
@@ -146,7 +150,5 @@ Stanford gives everyone a domain for your own website. It is accessible at stanf
 * Stanford Mailing Lists: https://uit.stanford.edu/service/mailinglists/tools
 * Stanford email lookup: https://stanfordwho.stanford.edu/SWApp/
 * Stanford course information: https://explorecourses.stanford.edu/
-* School of Engineering printing: https://soeithelp.stanford.edu/hc/en-us/articles/226558888-Add-CanonMFD-Secured-Unsecured-Print-Queue-for-Windows
-* Stanford library printing: http://library.stanford.edu/using/print-copy-scan
-* IT Help: https://uit.stanford.edu/service/help
+* IT Help: https://uit.stanford.edu/service/help and https://stanford.service-now.com/it_services?id=portal_home
 * Stanford Tech Center: http://web.stanford.edu/group/bookstore/service.html
