@@ -174,3 +174,7 @@ The command creates a partial derivative when you type `\pder{u}{x}`. In the com
 
 ## Conclusions
 In conclusion, LaTeX is very useful for typing equations and writing papers. There are many great tools and resources out there to help you write LaTeX more efficiently and effectively. However, at the end of the day, it is basically a programming language, so you will likely end up Googling a lot of your questions and you will generally be able resolve all of them with Google's help.
+
+## Miscellaneous links
+* Detexify (recognize unknown LaTeX symbols from a drawing): http://detexify.kirelabs.org
+* TeXnique (LaTeX typesetting game): https://texnique.xyz
