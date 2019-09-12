@@ -6,7 +6,7 @@ LaTeX is a markup style document preparation system designed for text and mathem
 ## How to write and compile LaTeX?
 Since LaTeX is written in plain text format, you can write LaTeX files using any of your favorite text editors, like Vim or Sublime or whatever. LaTeX files have the extension `.tex`. In order to compile tex file into pdfs or other formats, one must use a TeX distribution. The most popular of which are MikTeX (https://miktex.org/) and TeX Live (https://www.tug.org/texlive/). Both of these links have information about how to install them on your favorite OS. If you create a TeX file in a text editor and want to compile into a pdf in command line, both of these distributions have commands `pdflatex <file>.tex` which will build the file. Additionally, `Latexmk` has a similar command line interface (https://mg.readthedocs.io/latexmk.html). 
 
-While using the command line is a valid way to write LaTeX files, many people prefer to integrated environments to write, compile, and often view the pdfs all in one place. The most popular of these among my peers are:
+While compiling via the command line is a valid way to use LaTeX, many people prefer to integrated environments to write, compile, and often view the pdfs all in one place. Some popular such applications include:
 * TexMaker - http://www.xm1math.net/texmaker/ 
     * Cross platform support
     * Integrated pdf viewer
@@ -24,7 +24,11 @@ While using the command line is a valid way to write LaTeX files, many people pr
     * Syntax highlighting and autofill
     * Built in templates
     * No need to download packages
-    
+* LaTeXiT - https://www.chachatelier.fr/latexit/latexit-home.php?lang=en
+    * Mac OS
+    * Great for creating a single equation graphic for use in a non-LaTeX document
+    * Can also generate entire documents
+ 
 ## Basics and Templates
 A minimalistic LaTeX document must have a documentclass, and begin and end.
 ```latex
@@ -38,6 +42,8 @@ Commands start with backslash, `\`, curly braces surround arguments, and `%` sta
 In order to format the page to meet submission requirements or to look a certain way, commands are put before the `\begin{document}` line. There are a lot of different options here, so I highly recommend starting with templates that look the way you want, as opposed to trying to set all of the options from scratch. A couple sites with good templates are:
 * https://www.overleaf.com/gallery/tagged/academic-journal
 * https://www.latextemplates.com/
+
+In addition to standard homework or research paper styles, you can also use LaTeX to generate PDF presentations (using Beamer), posters, and more.
 
 ## Text
 To separate paragraphs in LaTeX you need to include a blank line in between:
@@ -82,9 +88,9 @@ If you want to have equations in their own line, use the `align` command
 To start a new line, use `\\`. `&` aligns the `&`s on all lines. `\label{...}` creates a label attached to the equation, which allows you to reference the equation using `\ref{...}` or `\eqref{..}` in the text. The equation numbering and referencing are very convinient because they will automatically update when new equations are added, so you don't need to manually organize them. 
 
 You can type pretty much any math symbol in LaTeX. A lot of them are pretty obvious, like `\psi` or a similar command works for Greek letter, `_` is subscript, and `^` is super script. There is a big list of them at http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html 
-Here are some of them that I often use:
+Here are some common examples:
 * `\psi` - Greek letters
-* `\left( stuff \right)` - Parantheses that auto size based on what is inside (also works with other kinds of brackets)
+* `\left( stuff \right)` - Parentheses that auto size based on what is inside (also works with other kinds of brackets)
 * `\frac{numerator}{denominator}` - Fractions
 * `\int` - integral
 * `\partial` - partial derivative
