@@ -35,6 +35,14 @@ Some Stanford services (for instance, connection to certain computing clusters) 
 When you open the VPN client, it will look something like this:
 ![Loading screenshot...](https://raw.githubusercontent.com/nimz/ICME_Computing_Refresher_2019/master/images/vpn.png)
 
+## Software
+
+Stanford has licenses for several software products. For a full list and to download any software, go to https://uit.stanford.edu/service/softwarelic. Some products are free to Stanford students (for instance, Windows), and some are reduced-price (for instance, Mathematica).
+
+## Printing
+
+Printing from your personal device at Stanford takes a few minutes to set up. A walkthrough is here: https://studenttechnology.stanford.edu/printing/download-install-print-drivers.
+
 ## Cluster Computing
 ### What is cluster computing?
 A computer cluster is a group of computers that can be accessed by a group of users. Such systems are used by universities and companies in order to give access to a limited number of software licenses, more efficiently distribute computing power, and to make it easier to manage the organizations computing resources. In a compute cluster, a group of users can remotely access a group of computers. A cluster consists of **login nodes** and **compute nodes**.
@@ -76,13 +84,13 @@ The information about most of the clusters can be found at https://srcc.stanford
   * And more...
 
 ### Farmshare
-Farmshare is a cluster open to everyone at Stanford that can be used for pretty much anything from coursework to research. Additionally, it can be used to access Stanford software. Withing Farmshare, there are three server types:
+Farmshare is a cluster open to everyone at Stanford that can be used for pretty much anything from coursework to research. Additionally, it can be used to access Stanford software. Within Farmshare, there are three server types:
 * *rice* - Login nodes for running smaller programs, accessing files, and submitting jobs.
 * *wheat* - Compute nodes with more CPU power and memory.
 * *oats* - GPU compute nodes.
 
 ### Connecting to Farmshare via SSH
-To connect to any of Stanford's clusters we will use a **secure shell** (SSH). This will connect you to a Linux terminal on the cluster from which you can work. If you wish to use interactive programs (such as MATLAB), then you will need to enable X11 forwarding when you SSH. This process is slightly different for each operating system:
+To connect to any of Stanford's clusters we will use a **secure shell** (SSH). This will connect you to a Linux terminal on the cluster from which you can work. If you wish to use interactive programs with a GUI (such as MATLAB), then you will need to enable X11 forwarding when you SSH. This process is slightly different for each operating system:
 * Linux
   * Open a terminal
   * `ssh sunetid@rice.stanford.edu` - To SSH onto Farmshare
