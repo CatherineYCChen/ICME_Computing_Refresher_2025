@@ -27,10 +27,10 @@ https://www.wolfram.com/mathematica/
 Mathematica is a symbolic mathematical computing language. It is very useful for solving complex problems analytically. For example, I often used it to solve complex systems of ODEs to check my numerical solutions. It also can produce very nice visualizations. Although it is not the focus of the language, numerical calcuations are also possible. In additon to all of the uses I mentioned, it has tons of built in funcitonality or applications from data analysis to numer theory. Unfortunately, Mathematica is not free. Stanford has licenses on computer lab computers and Farmshare, so it is accessible there, but if you want it on your personal computer, you will have to pay for a student license. Additionally, the language is very rigid and can be frustrating to learn the syntax of at first. However, I believe Mathematica is a very powerful tool that is worth being able to use if the need comes up. Also, as an added bonus, if you are using Mathematica and have access to the internet, you can type `==` and then it will enter Wolfram Alpha mode and you can ask question like you would in Wolfram Alpha and it will show steps!
 
 ## Scientific Computing Courses at Stanford
-Here are a list of computing courses at Stanford:
+Here are a list of scientific computing courses at Stanford:
 * CME 211 - Basics of Python and C++
 * CME 212 - Scientific computing with C++
-* CME 213 - Parallel computing (with an emphasis on Cuda)
+* CME 213 - Parallel computing (with an emphasis on CUDA)
 * CME 214 - Modern Fortran
 * CME 323 - Distributed Algorithms
 * CME 342 - Parallel methods in numerical analysis
@@ -39,4 +39,10 @@ Here are a list of computing courses at Stanford:
 * CME 192 - Short course on introduction to Matlab
 * CME 195 - Introduction to R
 * CME 257 - Short course on Julia
-* CME 292 - Short course on advanced Matlab
+* CME 292 - Short course on advanced MATLAB
+
+This is not a complete list. Of course, the CS department in particular offers several other courses that may be of interest.
+
+## Stack Overflow
+
+Have a programming-related question that can't be answered? You can likely find an answer here: https://stackoverflow.com, or ask a question yourself. https://math.stackexchange.com/ is a similar site for mathematics questions.
