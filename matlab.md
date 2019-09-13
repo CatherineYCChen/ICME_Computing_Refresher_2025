@@ -1,7 +1,7 @@
 # Introduction to MATLAB
 
 ## What is MATLAB?
-MATLAB is short for "Matrix Laboratory." It is a scripting language that is designed for fast matrix operations and to be full of features for scientific computing. The software is proprietary and requires a license, so it is not free. Stanford offers discount licenses for personal use though the software store, free access on Farmshare, and free access in computer labs. For similar, free options, you can try out Octave, Python (with NumPy and SciPy), R, or Julia.
+MATLAB is short for "Matrix Laboratory." It is a scripting language that is designed for fast matrix operations and to be full of features for scientific computing. The software is proprietary and requires a license, so it is not free. Stanford offers discount licenses for personal use though the software store, free access on Farmshare, and free access in computer labs. For similar, free options, you can try out Octave, Python (with NumPy and SciPy), R, or Julia. Octave is the closest alternative, having mostly identical syntax and being mostly cross-compatible with MATLAB. You can [download Octave](https://www.gnu.org/software/octave/download.html), or [use an online IDE](https://octave-online.net/).
 
 ## Basics
 * `x = 5` - Variables are defined with `=`
