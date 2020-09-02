@@ -1,12 +1,12 @@
 # ICME Computing Refresher
 
 * Location: 
-* Time: Thursday, September 12, 2:30PM-3:45PM and Friday, September 13, 1:00PM - 2:15PM
+* Time: Wednesday, September 2, 2:30PM-3:45PM and Thursday, September 13, 2:30PM - 3:45PM
 
 ----
 
-* Instructor: Nimit Sohoni
-* Email: [nims@stanford.edu](mailto:nims@stanford.edu)
+* Instructor: Chris Lazarus
+* Email: [clazarus@stanford.edu](mailto:clazarus@stanford.edu)
 
 ---
 
