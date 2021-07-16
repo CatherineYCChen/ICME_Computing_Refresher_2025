@@ -27,17 +27,21 @@ To summarize, you can put in your phone number to set up the following methods o
 3. Phone call
 4. SMS text message
 
-While all of these methods work, I strongly recommend getting the Duo Mobile app if you have a smartphone, as I find the push notifications the easiest and most consistent because they do not require typing in a code or phone service.
+While all of these methods work, we strongly recommend getting the Duo Mobile app if you have a smartphone, as the push notifications are the easiest and most consistent because they do not require typing in a code or phone service.
 
 ## Virtual private network (VPN)
 Some Stanford services (for instance, connection to certain computing clusters) require one to be logged into the Stanford network. If you are off campus, you can still use these services by connecting to a VPN. Instructions for installing a VPN client are here: https://uit.stanford.edu/service/vpn.
 
-When you open the VPN client, it will look something like this:
-![Loading screenshot...](https://raw.githubusercontent.com/nimz/ICME_Computing_Refresher_2019/master/images/vpn.png)
+We recommend using the Cisco AnyConnect client. The download links for Windows and Mac OS are provided on the webpage above. The mobile client is also available for Android and iOS. When you open the VPN client from a desktop, a window will pop up and the next step will ask you for the password and two-factor authentication:
+![screenshot of VPN client](images/vpn1.png)
+When you get connected successfully, it will look like this:
+![screenshot of VPN client](images/vpn2.png)
 
 ## Software
 
-Stanford has licenses for several software products. For a full list and to download any software, go to https://uit.stanford.edu/service/softwarelic. Some products are free to Stanford students (for instance, Windows), and some are reduced-price (for instance, Mathematica).
+Stanford has licenses for several software products. For a full list and to download any software, go to https://uit.stanford.edu/service/softwarelic. 
+
+Some products are free to Stanford students (for instance, [Windows](https://uit.stanford.edu/service/softwarelic/microsoft/itprofessional) and [MATLAB](https://uit.stanford.edu/service/softwarelic/matlab)), and some are reduced-price (for instance, Mathematica and Adobe Creative Cloud, available at [Software Liscening Webstore](https://stanford.onthehub.com/WebStore/Welcome.aspx)).
 
 ## Printing
 
