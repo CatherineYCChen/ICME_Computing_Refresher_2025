@@ -1,7 +1,10 @@
 # Introduction to MATLAB
 
 ## What is MATLAB?
-MATLAB is short for "Matrix Laboratory." It is a scripting language that is designed for fast matrix operations and to be full of features for scientific computing. The software is proprietary and requires a license, so it is not free. Stanford offers discount licenses for personal use though the software store, free access on Farmshare, and free access in computer labs. For similar, free options, you can try out Octave, Python (with NumPy and SciPy), R, or Julia. Octave is the closest alternative, having mostly identical syntax and being mostly cross-compatible with MATLAB. You can [download Octave](https://www.gnu.org/software/octave/download.html), or [use an online IDE](https://octave-online.net/).
+MATLAB is short for "Matrix Laboratory." It is a scripting language that is designed for fast matrix operations and to be full of features for scientific computing. The software is proprietary and requires a license. Stanford now offers MATLAB Individual Institution License for free, as well as free access on Farmshare, and free access in computer labs. You can also use [MATLAB Online](https://www.mathworks.com/products/matlab-online.html). Both obtaining a license and using the online version requires signing in to MathWorks Account using your Stanford email.
+
+* MATLAB Individual Institution License: https://uit.stanford.edu/service/softwarelic/matlab
+* MATLAB Online: https://matlab.mathworks.com/
 
 ## Basics
 * `x = 5` - Variables are defined with `=`
@@ -97,9 +100,18 @@ title('Example Figure')
 * `legend`, `xlabel`, `ylabel`, and `title` create the labels, legends, and titles
 * `help plot` is very useful for remembering all of the different plotting options
 
+## Live Script
+Live scripts are program files that contain your code, output, and formatted text together in a single interactive environment called the Live Editor. 
+* Similar to Jupyter Notebook, it allows mixing code with output, running code in sections, and adding formatted text, images, and equations to the script.
+* It's available in both desktop MATLAB and MATLAB Online.
+* You can create and edit a live script in the Live Editor. A live script is created with a ``.mlx`` extension.
+
+
 ## Useful tools and packages
-* Symbolic math toolbox
-* Optimization toolbox 
+* [Symbolic Math Toolbox](https://www.mathworks.com/products/symbolic.html)
+* [Optimization Toolbox](https://www.mathworks.com/products/optimization.html)
+* [Statistics and Machine Learning Toolbox](https://www.mathworks.com/products/statistics.html)
+* [Deep Learning Toolbox](https://www.mathworks.com/products/deep-learning.html)
 * `writeVideo()` - Creates videos from plots
 * `keyboard` - Stops running and enters debug mode at this location
 * `polyval()` - Evaluates a polynomial defined by a vector
@@ -108,3 +120,4 @@ title('Example Figure')
 * `ode45()` - 4th order ODE solver
 * Probability distributions
 * Tons of other useful math functions created by users and freely available on the MathWorks website
+* Many online tutorials and courses provided by MATLAB: https://matlabacademy.mathworks.com/
