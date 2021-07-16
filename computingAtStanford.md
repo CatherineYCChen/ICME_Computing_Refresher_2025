@@ -9,14 +9,14 @@ In this lesson, we're going to talk about how to access the various computing re
 ## Connecting to Wi-Fi
 If you haven't done this already, the first thing you will probably want to do is connect to the Wi-Fi at Stanford.
 There are a few different networks on campus with different purposes:
-* Stanford Visitor - Open to anyone, accept agreement to connect
-* Stanford - General network, requires SUID login
-* Stanford Secure - Secure network, requires installing Stanford security configuration
-* Eduroam - For students visiting campus, you can use at other universities
-* Stanford Residences - Use in residences
+* Stanford Visitor - Open to anyone, short-term sessions and limited bandwidth, accept agreement to connect
+* Stanford - General network, requires SUID login 
+* Eduroam - For students visiting campus, you can use at other universities; requires an account at an institution that participates in *[eduroam](https://eduroam.org/)*.
 
-I recommend using Stanford or Stanford Secure. For now, try connecting to Stanford Visitor or Stanford and you can try connecting to Stanford Secure after class, since that requires some more work. This link will give you information about all of the networks:
+We recommend using Stanford. For now, try connecting to Stanford Visitor and you can try connecting to Stanford after class, since that requires some more work. This link will give you information about all of the networks:
 https://uit.stanford.edu/service/wirelessnet
+
+*Note: All wireless devices must first be registered in the Stanford network database (NetDB) before they can connect to SUNet (not including "Stanford's Visitor" wireless guest network). Even if you have already registered your laptop's wired Ethernet connection, you must also register your wireless connection.*
 
 ## Two-Factor Authentication
 When you log onto many Stanford services, you will need to use two-factor authentication to log in. This website gives the information on how to set everything up: https://uit.stanford.edu/service/authentication/twostep
