@@ -45,11 +45,12 @@ Some products are free to Stanford students (for instance, [Windows](https://uit
 
 ## Printing
 
-Printing from your personal device at Stanford takes a few minutes to set up. A walkthrough is here: https://studenttechnology.stanford.edu/printing/download-install-print-drivers.
+Printing from your personal device at Stanford takes a few minutes to set up. How do I print (https://thehub.stanford.edu/services/print-copy-scan/how-do-i-print).
 
-More detailed walkthrough (Mac): https://stanford.service-now.com/it_services?id=kb_article&sys_id=a36ebf6fdb9d1f4019d458d6dc961993.
-
-You can also print from the library computers, which does not require any software installation. See http://library.stanford.edu/using/print-copy-scan
+* Via personal computer: 
+ * Connect to the Stanford wireless SSID, Stanford wired, or Stanford VPN network. 
+ * Install the [Printer Driver](https://thehub.stanford.edu/services/print-copy-scan/how-do-i-download-install-printer-drivers) on your personal device and access to the Print Queue. A walkthrough is here: https://thehub.stanford.edu/services/print-copy-scan/how-do-i-connect-print-queue. 
+* Via library computers, which does not require any software installation. See http://library.stanford.edu/using/print-copy-scan.
 
 ## Cluster Computing
 ### What is cluster computing?
