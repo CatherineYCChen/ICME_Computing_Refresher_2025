@@ -166,7 +166,7 @@ LaTeX macros are commands you define yourself. They can be very useful for impro
 ```latex
 \newcommand{name}[num]{definition}
 ```
-An example of a macro I use is:
+An example of a macro is:
 ```latex
 \newcommand{\pder}[2]{\frac{\partial {#1}}{\partial {#2}}}
 ```
