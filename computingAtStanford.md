@@ -33,9 +33,12 @@ While all of these methods work, we strongly recommend getting the Duo Mobile ap
 Some Stanford services (for instance, connection to certain computing clusters) require one to be logged into the Stanford network. If you are off campus, you can still use these services by connecting to a VPN. Instructions for installing a VPN client are here: https://uit.stanford.edu/service/vpn.
 
 We recommend using the Cisco AnyConnect client. The download links for Windows and Mac OS are provided on the webpage above. The mobile client is also available for Android and iOS. When you open the VPN client from a desktop, a window will pop up and the next step will ask you for the password and two-factor authentication:
-![screenshot of VPN client](images/vpn1.png)
+
+<img src="images/vpn1.png" alt="screenshot of VPN client" width="600"/>
+
 When you get connected successfully, it will look like this:
-![screenshot of VPN client](images/vpn2.png)
+
+<img src="images/vpn2.png" alt="screenshot of VPN client" width="300"/>
 
 ## Software
 
@@ -67,20 +70,20 @@ In this section we will introduce the different computing clusters at Stanford a
 The information about most of the clusters can be found at https://srcc.stanford.edu/services-systems-overview but an overview of the most commonly used clusters:
 * Farmshare 2
   * https://srcc.stanford.edu/farmshare2
-  * Open to all students, faculty, and staff
+  * Available to anyone who has a full-service SUNetID
   * Used for coursework, research, and accessing university software
   * 14 login nodes, 5 96 GB compute nodes, 2 787 GB compute nodes, 10 128 GB compute nodes with NVIDIA Tesla K40
-  * Access to AFS
+  * Access to [AFS](https://uit.stanford.edu/service/afs)
 * Sherlock
-  * https://srcc.stanford.edu/private/sherlock2
+  * https://www.sherlock.stanford.edu/
   * Main research cluster accessible by all faculty
   * Faculty can obtain use allocations on both shared and private resources
-  * 1325 compute nodes, 24096 cores, 1195 GPUs
+  * 1672 compute nodes, 44032 CPU cores, 712 GPUs
 * ICME GPU Cluster
-  * https://icme.stanford.edu/resources/hpc-compute-resources/icme-cluster
+  * https://icme.stanford.edu/get-involved/resources/hpc-resources
   * Accessible to anyone at Stanford by request
   * Usable for researtch requiring GPUs
-  * 288 CPU core, 10 NVIDIA Tesla K80s, 2 16GB NVIDIA Tesla V100s, 1.2 TB storage
+  * 32 nodes (20 CPU nodes and 12 GPU nodes) 
 * HPCC Clusters
   * https://hpcc.stanford.edu/
   * School of Engineering access by faculty request
@@ -134,13 +137,30 @@ Farmshare is how the university distributes access to a variety of software. The
 * Stata
 * Torch
 
-To access any of these programs, use `module load [name of module]` to load the module, and then use the name of the command to run the program. Access to many of these programs is also available on the computers in the libraries around campus, like the Turman Engineering Library in Huang.
+You can list available software using `module avail` (or short version `ml av`).
+
+To access any of these programs, use `module load [name of module]` (or short version `ml [name of module]`) to load the module, and then use the name of the command to run the program. Access to many of these programs is also available on the computers in the libraries around campus, like the Turman Engineering Library in Huang.
 
 ### AFS
-AFS stands for Andrew File System. It is an internal file system at Stanford that you can use to store files, and is accessible from Farmshare and in the libraries on campus. For general file storing, I would use Box or Drive, but this is one way to pass files to and from Farmshare without using any outside software. It is accessible at https://afs.stanford.edu/.
+AFS stands for Andrew File System. It is an internal file system at Stanford that you can use to store files, and is accessible from Farmshare and in the libraries on campus. AFS files are accessible via the Web or through file transfer programs such as OpenAFS or Fetch (Macintosh) and SecureFX (Windows). For general file storing, I would use Box or Drive, but this is one way to pass files to and from Farmshare without using any outside software. It is accessible at https://afs.stanford.edu/.
+
+### Sherlock OnDemand
+Sherlock OnDemand is an interface for access to Sherlock resources via a web browser
+* https://login.sherlock.stanford.edu/pun/sys/dashboard
+* upload and download files
+* create, edit, submit, and monitor jobs
+* run applications: Jupyter Notebook, RStudio, TensorBoard
+* connect via SSH
 
 ## Your Website
-Stanford gives everyone a domain for your own website. It is accessible at stanford.edu/~[your suid] . This website can be updated by putting html files into the WWW directory in your AFS directory. `index.html` will serve as your homepage.
+
+For publishing a personal website, Stanford offers multiple options. See a comparison here: https://uit.stanford.edu/guide/website/personal
+* [Stanford Domains](https://uit.stanford.edu/service/sudomains) 
+* [Stanford Sites](https://uit.stanford.edu/service/stanfordsites) 
+* [AFS Web Hosting](https://uit.stanford.edu/service/web/centralhosting/howto_user): Stanford gives everyone a domain for your own website. It is accessible at http://web.stanford.edu/~yoursunetid/. This website can be updated by putting html files into the WWW directory in your AFS directory. `index.html` will serve as your homepage.
+* [Google Sites](https://uit.stanford.edu/service/gsuite/sites)
+* Self-help Web Design Resources: https://uit.stanford.edu/service/web/design
+
 
 ## Miscellaneous Resources
 * Stanford library catalogue: http://library.stanford.edu/
@@ -150,11 +170,11 @@ Stanford gives everyone a domain for your own website. It is accessible at stanf
 * Stanford Slack: https://uit.stanford.edu/service/slack
 * Stanford Google Drive: https://uit.stanford.edu/service/gsuite/drive
 * Stanford Email: http://webmail.stanford.edu
-* Stanford course evaluations: http://carta.stanford.edu
+* Stanford course evaluations: https://carta-beta.stanford.edu/
 * Stanford VPN: https://uit.stanford.edu/service/vpn
 * Stanford Mailing Lists: https://uit.stanford.edu/service/mailinglists/tools
-* Stanford email lookup: https://stanfordwho.stanford.edu/SWApp/
+* Stanford directory: https://stanford.rimeto.io/
 * Stanford course information: https://explorecourses.stanford.edu/
 * IT Help: https://uit.stanford.edu/service/help and https://stanford.service-now.com/it_services?id=portal_home
-* Stanford Tech Center: http://web.stanford.edu/group/bookstore/service.html
-* C2 (Computational Consulting): https://icme.stanford.edu/resources/computational-consulting-c2
+* Stanford Bookstore Tech Center: http://web.stanford.edu/group/bookstore/service.html
+* C2 (Computational Consulting): https://icme.stanford.edu/get-involved/resources/computational-consulting-c2
