@@ -1,11 +1,13 @@
 # Introduction to Linux/Unix
 
 ## What are Unix/Linux?
-Linux and Unix are both operating systems. Unix was originally developed by AT&T Bell Labs and is a proprietary operating system that is used mainly in servers and mainframes today. It primarily involes the command line interface and is designed to work with specific hardware. As Unix was being developed, many competing versions with similar philosophies were developed as well. Linux is an open source operating system based on Unix, but not directly decended from it. Mac OS, is a descendant of the BSD family of Unix. Linux uses both command line interfaces and GUIs and is compatible with most hardware. Since Linux is open source, anyone can go into the code any modify it for whatever they want. Because of this, there are a number of different Linux distributions or versions of the Linux operating systems. Some examples are
+Linux and Unix are both operating systems. Unix was originally developed by AT&T Bell Labs and is a proprietary operating system that is used mainly in servers and mainframes today. It primarily involes the command line interface and is designed to work with specific hardware. As Unix was being developed, many competing versions with similar philosophies were developed as well. 
+
+Linux is an open source operating system based on Unix, but not directly decended from it. Mac OS, is a descendant of the BSD family of Unix. Linux uses both command line interfaces and GUIs and is compatible with most hardware. Since Linux is open source, anyone can go into the code any modify it for whatever they want. Because of this, there are a number of different Linux distributions or versions of the Linux operating systems. Some examples are
 * Redhat
 * Debian
 * ArchLinux
-* Ubuntu
+* Ubuntu (the one used by Stanford's shared computing environment provides)
 * CentOS
 * Fedora
 * Mint
@@ -103,7 +105,7 @@ In addition to these command line text editors, there are a number of good GUI b
 * Notepad++ - https://notepad-plus-plus.org/
 
 ## Slurm
-Slurm is a job scheduler that is implemented in Farmshare and many of the other clusters on campus. This judiciously allocates computing resources to users. There are a few ways to use it. If you just want to connect to a private computer so you can run programs with computing with other users, simply use the following command to request that:
+[Slurm](https://slurm.schedmd.com/quickstart.html) is an open-source resource manager and job schedule that is implemented in Farmshare and many of the other clusters on campus. This judiciously allocates computing resources to users. There are a few ways to use it. If you just want to connect to a private computer so you can run programs with computing with other users, simply use the following command to request that:
 ```
 srun --pty --qos=interactive $SHELL -l
 ```
@@ -128,4 +130,24 @@ This file will be called `filename.slurm`. You can specify a job name, where to 
 ```
 sbatch filename.slurm
 ```
-Once your job is submitted, you can use `squeue` to check if it is runnning or still waiting in the queue. Once it is finished running all of your commands or you reach the time limit that you selected, the script will stop running and you will have your output. There are a lot more options about Slurm scripts that I haven't covered here. If you intend to use them regularly, I highly recommend you talk to the administrators of whatever cluster you are using, as they will have plenty of tips and examples for the specific cluster.
+* You can use ``sdev -h`` to get more information, which includes a list of optional arguments:
+```
+        -c      number of CPU cores to request (OpenMP/pthreads)
+        -n      number of tasks to request (MPI ranks)
+        -N      number of nodes to request 
+        -m      memory amount to request 
+        -p      partition to run the job in 
+        -t      time limit (default: 01:00:00)
+        -r      allocate resources from the named reservation 
+        -J      job name 
+        -q      quality of service to request for the job 
+```
+
+* Once your job is submitted, you can use `squeue` to check if it is runnning or still waiting in the queue. Use ``squeue -u $USER`` to show only jobs owned by user or ``squeue -j JOBID`` to how details for the specific job.
+* If you want to cancel a job scheduled, use ``scancel JOBID``.
+* The ``sinfo`` command can be used to list available partitions, show status and list node and partition configurations. 
+* Once it is finished running all of your commands or you reach the time limit that you selected, the script will stop running. The scheduler will automatically create an output file that will contain the result of the commands run in the script file. (The output file is names ``slurm-<jobid>.out`` by default on Sherlock, but can be customized via submission options.) 
+  
+There are a lot more options about Slurm scripts. If you intend to use them regularly, we highly recommend you talk to the administrators of whatever cluster you are using, as they will have plenty of tips and examples for the specific cluster.
+
+Instructions on how to submit jobs to Sherlock can be found here: https://www.sherlock.stanford.edu/docs/getting-started/submitting/
