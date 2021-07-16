@@ -23,19 +23,23 @@ Julia is a language that was designed from scratch for high performance and high
 ## Markdown
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-Markdown is the language this document is written in. It is an easy way to write nice looking documents. It is not the got to language for writing papers or anything like that, but it is easy and quick to learn and it is useful for writing simple documents and typing notes.
+Markdown is the language this document is written in. It is an easy way to write nice looking documents. It is not the go to language for writing papers or anything like that, but it is easy and quick to learn and it is useful for writing simple documents and typing notes.
 
 GitHub automatically renders Markdown documents. There are also many editors available that will render Markdown for you, for instance [MacDown](https://macdown.uranusjr.com/).
 
-## Mendeley
-https://www.mendeley.com/
+## Mendeley and Zotero
+https://www.mendeley.com/ https://www.zotero.org/
 
-Menedeley is a reference management tool. It allows you to document the papers you have downloaded, organize them, generate citations, and it will even suggest related papers that you might be interested in.  I find it much easier than trying to organize all the pdfs into different folder and to remember what papers I want to cite where.
+Menedeley is a reference management tool. It allows you to document the papers you have downloaded, organize them, generate citations, and it will even suggest related papers that you might be interested in. I find it much easier than trying to organize all the pdfs into different folder and to remember what papers I want to cite where.
+
+Zotero is another free, easy-to-use tool to help collect, organize, cite, and share research.
+
+Both have web extensions that allow saving references from your web browser. 
 
 ## Mathematica
 https://www.wolfram.com/mathematica/
 
-Mathematica is a symbolic mathematical computing language. It is very useful for solving complex problems analytically. For example, I often used it to solve complex systems of ODEs to check my numerical solutions. It also can produce very nice visualizations. Although it is not the focus of the language, numerical calcuations are also possible. In additon to all of the uses I mentioned, it has tons of built in funcitonality or applications from data analysis to numer theory. Unfortunately, Mathematica is not free. Stanford has licenses on computer lab computers and Farmshare, so it is accessible there, but if you want it on your personal computer, you will have to pay for a student license. Additionally, the language is very rigid and can be frustrating to learn the syntax of at first. However, I believe Mathematica is a very powerful tool that is worth being able to use if the need comes up. Also, as an added bonus, if you are using Mathematica and have access to the internet, you can type `==` and then it will enter Wolfram Alpha mode and you can ask question like you would in Wolfram Alpha and it will show steps!
+Mathematica is a symbolic mathematical computing language. It is very useful for solving complex problems analytically. For example, I often used it to solve complex systems of ODEs to check my numerical solutions. It also can produce very nice visualizations. Although it is not the focus of the language, numerical calcuations are also possible. In additon to all of the uses I mentioned, it has tons of built in funcitonality or applications from data analysis to number theory. Unfortunately, Mathematica is not free. Stanford has licenses on computer lab computers and Farmshare, so it is accessible there, but if you want it on your personal computer, you will have to pay for a student license. Additionally, the language is very rigid and can be frustrating to learn the syntax of at first. However, I believe Mathematica is a very powerful tool that is worth being able to use if the need comes up. Also, as an added bonus, if you are using Mathematica and have access to the internet, you can type `==` and then it will enter Wolfram Alpha mode and you can ask question like you would in Wolfram Alpha and it will show steps!
 
 ## Scientific Computing Courses at Stanford
 Here are a list of scientific computing courses at Stanford:
@@ -58,7 +62,9 @@ This is not a complete list. Of course, the CS department in particular offers s
 Have a programming-related question that can't be answered? You can likely find an answer here: https://stackoverflow.com, or ask a question yourself. https://math.stackexchange.com/ is a similar site for mathematics questions.
 
 ## arXiv
-Most of you are probably familiar with this, but [arXiv](https://arxiv.org/) is an online archive for scientific research papers and preprints, with a particular emphasis on the mathematical and computational fields. ([biorXiv](https://www.biorxiv.org/) is a similar site more geared towards biological disciplines.)
+Most of you are probably familiar with this, but [arXiv](https://arxiv.org/) is an online archive for scientific research papers and preprints, with a particular emphasis on the mathematical and computational fields. 
+
+[bioRxiv](https://www.biorxiv.org/) is a similar site more geared towards biological disciplines and [medRxiv](https://www.medrxiv.org/) towards health sciences.
 
 ## LeetCode
 [LeetCode](https://leetcode.com) is a site for practicing coding problems, particularly interview-style questions. Very useful for those of you considering a career in tech.
