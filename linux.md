@@ -105,7 +105,7 @@ In addition to these command line text editors, there are a number of good GUI b
 * Notepad++ - https://notepad-plus-plus.org/
 
 ## Slurm
-[Slurm](https://slurm.schedmd.com/quickstart.html) is an open-source resource manager and job schedule that is implemented in Farmshare and many of the other clusters on campus. This judiciously allocates computing resources to users. There are a few ways to use it. If you just want to connect to a private computer so you can run programs with computing with other users, simply use the following command to request that:
+[Slurm](https://slurm.schedmd.com/quickstart.html) is an open-source resource manager and job scheduler that is implemented in Farmshare and many of the other clusters on campus. This judiciously allocates computing resources to users. There are a few ways to use it. If you just want to connect to a private computer so you can run programs with computing with other users, simply use the following command to request that:
 ```
 srun --pty --qos=interactive $SHELL -l
 ```
