@@ -17,7 +17,7 @@ While compiling via the command line is a valid way to use LaTeX, many people pr
     * Simple
     * Syntax highlighting
     * Pdf viewer
-* Overleaf/ShareLaTeX - https://www.overleaf.com/ https://www.sharelatex.com/
+* Overleaf - https://www.overleaf.com/
     * Cloud based client
     * Allows for collaboration and sharing
     * Real-time preview
