@@ -6,6 +6,13 @@ Information on all ICME Refresher courses are available at: [ICME Refresher Cour
 
 Information on this course is available at: [Syllabus](syllabus.md)
 
+### Overview
+
+This course is intended for graduate students entering Stanford in ICME, Statistics, or MS&E.
+It will serve as a brief overview of the computing resources at Stanford and basic computing tools that are commonly used in these areas of research.
+
+### Topics
+
 The areas we will cover are:
 
 Day 1
@@ -19,8 +26,3 @@ Day 2
 * [LaTeX](latex.md)
 * [MATLAB](matlab.md)
 * [Miscellaneous](miscellaneous.md)
-
-### Overview
-
-This course is intended for graduate students entering Stanford in ICME, Statistics, or MS&E.
-It will serve as a brief overview of the computing resources at Stanford and basic computing tools that are commonly used in these areas of research.
