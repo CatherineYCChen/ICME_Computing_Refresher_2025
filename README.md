@@ -18,11 +18,11 @@ The areas we will cover are:
 Day 1
 * [Computing at Stanford](computingAtStanford.md)
 * [Linux](linux.md)
-* [Git](git.md)
   
 *[Day 1 Exercises](class1exercise.md)*
 
 Day 2
+* [Git](git.md)
 * [LaTeX](latex.md)
 * [MATLAB](matlab.md)
 * [Miscellaneous](miscellaneous.md)
