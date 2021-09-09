@@ -1,10 +1,10 @@
-# ICME Refresher - Computing
+# ICME Refresher 2021 - Computing
 
 Welcome to the ICME Computing Refresher. This git repository will host materials and files used in the class.
 
 Information on all ICME Refresher courses are available at: [ICME Refresher Course (Sept 13-16 2021)](http://web.stanford.edu/~ryhumble/refresher21/schedule.html)
 
-Information on this course is available at: [Syllabus](syllabus.md)
+Syllabus of this course is available at: [Syllabus](syllabus.md)
 
 ### Overview
 
