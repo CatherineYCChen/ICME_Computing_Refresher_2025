@@ -24,10 +24,12 @@ Finally, we will briefly show students some additional useful software and langu
 
 A list of topics is as follows:
 
-* Introduction to Stanford Computing
-  * Stanford Wi-Fi
+* Computing at Stanford
+  * Stanford wi-fi, two-factor authentication, and virtual private network (VPN)
+  * Software liscening and printing on campus
   * Connecting to Stanford computing clusters
   * Accessing programs on the cluster
+  * Other resources
 * Linux and Bash scripting
   * Navigating the Linux environment
   * SLURM job submission
@@ -38,15 +40,16 @@ A list of topics is as follows:
 * LaTeX
   * Basic syntax
   * Tips and tricks
-* MATLAB/Octave
+  * Overleaf
+* MATLAB
   * Basic syntax
   * Matrices
   * Functions/function handles
   * Plotting
 * Useful software
   * Text editors
-  * Julia
-  * Overleaf
-  * Jupyter Notebooks
+  * Slack
+  * Anaconda, Julia, Jupyter Notebooks, etc.
+  * Reference management tools
   * More
 
