@@ -1,6 +1,19 @@
 # Miscellaneous
 This is just a place where I wanted to plug a few useful tools and resources that are useful for a variety of computing needs.
 
+## Text Editors
+There are many text and code editors available. Here I only listed a few that I have used and found helpful:
+* Notepad on Windows and TextEdit on Mac are the most basic ones.
+* [Sublime Text](https://www.sublimetext.com/) (for macOS, Linux, and MS Windows). It natively supports many programming languages and markup languages.
+* [Notepad++](https://notepad-plus-plus.org/) (for MS Windows) also supports many programming languages.
+* [Atom](https://atom.io/) (for macOS, Linux, and MS Windows) is developed as a text editor and has been later turned into integrated development environment (IDE).
+* [Visual Studio Code](https://code.visualstudio.com/) (for macOS, Linux, and MS Windows) is a another good code editor and IDE.
+* [Vim](https://www.vim.org/) is a powerful text editor used in CLI (command line interface).
+* [Emacs](https://www.gnu.org/software/emacs/) is another popular one used in CLI.
+* Many more...
+
+You may choose to work with any one that you like. 
+
 ## Anaconda
 
 Anaconda is a distribution of Python designed for general use (especially scientific computing and data science) and makes it very easy to install packages and manage different Python environments. Install here: https://www.anaconda.com/distribution/
