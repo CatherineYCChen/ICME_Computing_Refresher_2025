@@ -44,7 +44,7 @@ When you get connected successfully, it will look like this:
 
 Stanford has licenses for several software products. For a full list and to download any software, go to https://uit.stanford.edu/service/softwarelic. 
 
-Some products are free to Stanford students (for instance, [Windows](https://uit.stanford.edu/service/softwarelic/microsoft/itprofessional) and [MATLAB](https://uit.stanford.edu/service/softwarelic/matlab)), and some are reduced-price (for instance, Mathematica and Adobe Creative Cloud, available at [Software Liscening Webstore](https://stanford.onthehub.com/WebStore/Welcome.aspx)).
+Some products are free to Stanford students (for instance, [Windows](https://uit.stanford.edu/service/softwarelic/microsoft/itprofessional), [MATLAB](https://uit.stanford.edu/service/softwarelic/matlab), Mathematica), and some are reduced-price (for instance, Adobe Creative Cloud, available at [Software Liscening Webstore](https://stanford.onthehub.com/WebStore/Welcome.aspx)).
 
 ## Printing
 
