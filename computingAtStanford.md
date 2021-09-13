@@ -117,6 +117,8 @@ To connect to any of Stanford's clusters we will use a **secure shell** (SSH). T
   * Install XMing or MobaXterm and connect with the X11 option in the Windows X11 Client
   * Alternatively, Windows users can also uses the Linux subsystem for most Linux things. https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
 
+Disconnet: `exit`
+
 Here is a link to more information about connecting to Farmshare: https://srcc.stanford.edu/farmshare2/connecting
 
 For next class, you will be asked to connect to Farmshare from your own computer with X11 forwarding, so we can follow some Linux tutorials.
