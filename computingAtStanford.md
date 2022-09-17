@@ -16,7 +16,11 @@ There are a few different networks on campus with different purposes:
 We recommend using Stanford. For now, try connecting to Stanford Visitor and you can try connecting to Stanford after class, since that requires some more work. This link will give you information about all of the networks:
 https://uit.stanford.edu/service/wirelessnet
 
-*Note: All wireless devices must first be registered in the Stanford network database (NetDB) before they can connect to SUNet (not including "Stanford's Visitor" wireless guest network). Even if you have already registered your laptop's wired Ethernet connection, you must also register your wireless connection.*
+You can connect to eduroam using your Stanford credentials or automatically with Cardinal Key (a digital certificate). These links will walk you through required steps for either service:
+https://uit.stanford.edu/service/wirelessnet/eduroam
+https://uit.stanford.edu/service/cardinalkey
+
+*Note: All wireless devices must first be registered in the Stanford network database (NetDB) before they can connect to networks (not including "Stanford's Visitor" wireless guest network). Even if you have already registered your laptop's wired Ethernet connection, you must also register your wireless connection.*
 
 ## Two-Factor Authentication
 When you log onto many Stanford services, you will need to use two-factor authentication to log in. This website gives the information on how to set everything up: https://uit.stanford.edu/service/authentication/twostep
@@ -54,6 +58,7 @@ Printing from your personal device at Stanford takes a few minutes to set up. Ho
  * Connect to the Stanford wireless SSID, Stanford wired, or Stanford VPN network. 
  * Install the [Printer Driver](https://thehub.stanford.edu/services/print-copy-scan/how-do-i-download-install-printer-drivers) on your personal device and access to the Print Queue. A walkthrough is here: https://thehub.stanford.edu/services/print-copy-scan/how-do-i-connect-print-queue. 
 * Via library computers, which does not require any software installation. See http://library.stanford.edu/using/print-copy-scan.
+* Specific instructions for ICME lobby printer: https://icmeintranet.stanford.edu/students/printing (internal ICME site - login required)
 
 ## Cluster Computing
 ### What is cluster computing?
@@ -117,11 +122,11 @@ To connect to any of Stanford's clusters we will use a **secure shell** (SSH). T
   * Install XMing or MobaXterm and connect with the X11 option in the Windows X11 Client
   * Alternatively, Windows users can also uses the Linux subsystem for most Linux things. https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/
 
-Disconnet: `exit`
+Disconnect: `exit`
 
 Here is a link to more information about connecting to Farmshare: https://srcc.stanford.edu/farmshare2/connecting
 
-For next class, you will be asked to connect to Farmshare from your own computer with X11 forwarding, so we can follow some Linux tutorials.
+For next class, you will be asked to connect to Farmshare from your own computer with X11 forwarding, so we can follow some Linux tutorials. Note that CME 211 will require you to run programs on Farmshare, so this information will be included at the beginning of that class as well. 
 
 ### Farmshare software
 Farmshare is how the university distributes access to a variety of software. The list of software can be found at https://srcc.stanford.edu/farmshare2/software or by using the `module avail` command in the terminal. Some of the highlights include:
