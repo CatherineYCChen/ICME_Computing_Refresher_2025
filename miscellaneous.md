@@ -8,6 +8,7 @@ There are many text and code editors available. Here I only listed a few that I 
 * [Notepad++](https://notepad-plus-plus.org/) (for MS Windows) also supports many programming languages.
 * [Atom](https://atom.io/) (for macOS, Linux, and MS Windows) is developed as a text editor and has been later turned into integrated development environment (IDE).
 * [Visual Studio Code](https://code.visualstudio.com/) (for macOS, Linux, and MS Windows) is a another good code editor and IDE.
+  * There is also a popular remote development package available in VS Code: https://code.visualstudio.com/docs/remote/ssh
 * [Vim](https://www.vim.org/) is a powerful text editor used in CLI (command line interface).
 * [Emacs](https://www.gnu.org/software/emacs/) is another popular one used in CLI.
 * Many more...
