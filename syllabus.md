@@ -1,6 +1,6 @@
 # ICME Computing Refresher 2021
 
-Information of ICME Refresher 2022 is available at: [ICME Refresher Course (Sept 19-22 2022)](http://web.stanford.edu/~ryhumble/refresher21/schedule.html)
+Information of ICME Refresher 2022 is available at: [ICME Refresher Course (Sept 19-22 2022)](https://icmerefreshercourse.stanford.edu/icme-refresher-course-schedule)
 
 * Location: Gates B12.([Google Map](https://goo.gl/maps/jwVhSocU3VnhHmyb6))
 * Time: 
