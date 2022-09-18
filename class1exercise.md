@@ -12,4 +12,4 @@ We will use this next class to play around with Git usage and some other softwar
    
    `git clone https://github.com/lreeder7/ICME_Computing_Refresher_2022.git`
    
-   Don't worry if this command doesn't make sense to you right now. Our next section we will go over covers git commands. 
+   Don't worry if this command doesn't make sense to you right now.  We will go over covers git commands in our next section. 
