@@ -1,16 +1,16 @@
 # ICME Computing Refresher 2021
 
-Information of ICME Refresher 2021 is available at: [ICME Refresher Course (Sept 13-16 2021)](http://web.stanford.edu/~ryhumble/refresher21/schedule.html)
+Information of ICME Refresher 2022 is available at: [ICME Refresher Course (Sept 19-22 2022)](http://web.stanford.edu/~ryhumble/refresher21/schedule.html)
 
-* Location: Shriram 104 ([Google Map](https://goo.gl/maps/QVfvGM87q2eQqqKU9))
+* Location: Gates B12.([Google Map](https://goo.gl/maps/jwVhSocU3VnhHmyb6))
 * Time: 
-  * 12:40 PM – 1:50 PM, Monday, 9/13
-  * 12:40 PM – 1:50 PM, Tuesday, 9/14
+  * 9:00 AM – 10:10 AM, Monday, 9/19
+  * 10:20 AM – 11:30 AM, Monday, 9/19
 
 ----
 
-* Instructor: Xiran Liu
-* Email: [xiranliu@stanford.edu](mailto:xiranliu@stanford.edu)
+* Instructor: Leah Reeder
+* Email: [lreeder@stanford.edu](mailto:lreeder@stanford.edu)
 
 ---
 
