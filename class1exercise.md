@@ -8,3 +8,4 @@ We will use this next class to play around with Git usage and some other softwar
 2. Download an SSH and/or X11 client if needed.
 3. Connect to SUNetID@rice.stanford.edu.
 4. Try the basic Linux commands.
+5. Clone this repository to your directory (either on rice or back on your personal device). It is a useful resource for you to keep this repository somewhere to be able to look back on throughout your first year.  
