@@ -9,4 +9,4 @@ We will use this next class to play around with Git usage and some other softwar
 3. Connect to SUNetID@rice.stanford.edu
 4. Try the basic Linux commands.
 5. Clone this repo to your home directory on rice! Alternatively, you can clone it to your own computer. 
-   `git clone `
+   `git clone https://github.com/lreeder7/ICME_Computing_Refresher_2022.git`
