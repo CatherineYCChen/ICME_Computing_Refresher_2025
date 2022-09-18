@@ -19,7 +19,7 @@ Class 1
 * [Computing at Stanford](computingAtStanford.md)
 * [Linux](linux.md)
   
-*[Day 1 Exercises](class1exercise.md)*
+*[Class 1 Exercises](class1exercise.md)*
 
 Class 2
 * [Git](git.md)
