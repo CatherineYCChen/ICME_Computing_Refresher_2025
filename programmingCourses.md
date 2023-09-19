@@ -27,7 +27,8 @@ A little bit more about each class in case you are unsure of what will be the be
 - CS 166 has great reviews, and is probably an ok substitute for material covered in CME 212. Gets good reviews!! Data structures is also just an essential programming course to take, but won't have emphasis on scientific computing.
 - CS 168 seems like it goes through a lot of algorithms but not into much depth. Seems like not much previous programming is required? One review said it would be nice to have probability/statistics background.
 - CS 190 requires an application, and has a prereq of CS 140 (operating systems). Definitely a course for strong/experienced programmers.
-- CS 194 
+- CS 194 is a group project based course and gives you a TON of freedom. Probably best if you have a project idea in mind (not a lot of instruction).
+- CS 246 is a great class if you are using large datasets and want to learn tools to help with that. Lots of topics covered and "challenging hw assignments". Not an intro class but not extremely rigorous programming wise. 
 
 Resources for learning more about each class:
 * carta.stanford.edu
