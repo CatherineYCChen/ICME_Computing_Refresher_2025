@@ -53,7 +53,7 @@ A list of topics is as follows:
   * Reference management tools
   * More
 
-* NEW IN 2023: Survey to see previous programming experiences (if you are wanting to test out of any of the programming requirements, this is how you will let ICME know). 
+* **NEW IN 2023:** Survey to see previous programming experiences (if you are wanting to test out of any of the programming requirements, this is how you will let ICME know). 
  
  
 
