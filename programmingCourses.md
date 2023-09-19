@@ -3,6 +3,7 @@
 Earn at least 6 credits from the below list. CME212, CME213, CME323, CS246, and CS315B are recommended. Courses must be taken for a letter grade.
 
 This is current for the incoming 2023-2024 year, but ALWAYS check the bulletin or message the ICME student support team for further questions.
+* CS 106B
 * ~~CME 212: Advanced Software Development for Scientists and Engineers~~
 * CME 213: Introduction to parallel computing using MPI, OpenMP, and CUDA
 * CME 323: Distributed Algorithms and Optimization
