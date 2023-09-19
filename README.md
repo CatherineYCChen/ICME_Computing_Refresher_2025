@@ -1,8 +1,8 @@
-# ICME Refresher 2022 - Computing
+# ICME Refresher 2023 - Computing
 
 Welcome to the ICME Computing Refresher. This git repository will host materials and files used in the class.
 
-Information on all ICME Refresher courses are available at: [ICME Refresher Course (Sept 19-22 2022)](https://icmerefreshercourse.stanford.edu/icme-refresher-course-schedule)
+Information on all ICME Refresher courses are available at: [ICME Refresher Course (Sept 18-20 2023)](https://icmerefreshercourse.stanford.edu/icme-refresher-course-schedule)
 
 Syllabus of this course is available at: [Syllabus](syllabus.md)
 
@@ -26,3 +26,4 @@ Class 2
 * [LaTeX](latex.md)
 * [MATLAB](matlab.md)
 * [Miscellaneous](miscellaneous.md)
+* Survey of previous programming courses 
