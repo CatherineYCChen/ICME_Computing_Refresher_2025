@@ -1,11 +1,11 @@
-# ICME Computing Refresher 2021
+# ICME Computing Refresher 2023
 
-Information of ICME Refresher 2022 is available at: [ICME Refresher Course (Sept 19-22 2022)](https://icmerefreshercourse.stanford.edu/icme-refresher-course-schedule)
+Information of ICME Refresher 2023 is available at: [ICME Refresher Course (Sept 18-20 2023)](https://icmerefreshercourse.stanford.edu/icme-refresher-course-schedule)
 
-* Location: Gates B12.([Google Map](https://goo.gl/maps/jwVhSocU3VnhHmyb6))
+* Location: Hewlett 102.([Google Map]([https://goo.gl/maps/jwVhSocU3VnhHmyb6](https://www.google.com/maps/place/William+R.+Hewlett+Teaching+Center,+370+Serra+Mall,+Stanford,+CA+94305/data=!4m2!3m1!1s0x808fbb2ae177cc91:0x5351ffed56456da8?sa=X&ved=2ahUKEwiRqKza-raBAxX5I0QIHc6-DjYQ8gF6BAg4EAA&ved=2ahUKEwiRqKza-raBAxX5I0QIHc6-DjYQ8gF6BAg_EAE)))
 * Time: 
-  * 9:00 AM – 10:10 AM, Monday, 9/19
-  * 10:20 AM – 11:30 AM, Monday, 9/19
+  * 9:00 AM – 10:10 AM, Tuesday, 9/19
+  * 10:20 AM – 11:30 AM, Tuesday, 9/19
 
 ----
 
@@ -52,4 +52,8 @@ A list of topics is as follows:
   * Anaconda, Julia, Jupyter Notebooks, etc.
   * Reference management tools
   * More
+
+* NEW IN 2023: Survey to see previous programming experiences (if you are wanting to test out of any of the programming requirements, this is how you will let ICME know). 
+ 
+ 
 
