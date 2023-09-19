@@ -13,14 +13,15 @@ There are a few different networks on campus with different purposes:
 * Stanford - General network, requires SUID login 
 * Eduroam - For students visiting campus, you can use at other universities; requires an account at an institution that participates in *[eduroam](https://eduroam.org/)*.
 
-We recommend using Stanford. For now, try connecting to Stanford Visitor and you can try connecting to Stanford after class, since that requires some more work. This link will give you information about all of the networks:
+We recommend using Stanford. For now, try connecting to Stanford Visitor and you can try connecting to Stanford after class, since that requires some more work (device registration is required). This link will give you information about all of the networks:
 https://uit.stanford.edu/service/wirelessnet
 
 You can connect to eduroam using your Stanford credentials or automatically with Cardinal Key (a digital certificate). These links will walk you through required steps for either service:
 https://uit.stanford.edu/service/wirelessnet/eduroam
 https://uit.stanford.edu/service/cardinalkey
+It is nice to have the option to connect to both Stanford and eduroam depending on connection speed sometimes one is a lot better than the other. 
 
-*Note: All wireless devices must first be registered in the Stanford network database (NetDB) before they can connect to networks (not including "Stanford's Visitor" wireless guest network). Even if you have already registered your laptop's wired Ethernet connection, you must also register your wireless connection.*
+*Note: All wireless devices must first be registered in the Stanford network database (NetDB) before they can connect to networks (not including "Stanford's Visitor" wireless guest network). Even if you have already registered your laptop's wired Ethernet connection, you must also register your wireless connection. Additionally, if you are living in Stanford residences, you can also connect gaming and some smart home devices to the Stanford wifi by registering them as "other" and using their MAC addresses, etc.*
 
 ## Two-Factor Authentication
 When you log onto many Stanford services, you will need to use two-factor authentication to log in. This website gives the information on how to set everything up: https://uit.stanford.edu/service/authentication/twostep
@@ -31,7 +32,7 @@ To summarize, you can put in your phone number to set up the following methods o
 3. Phone call
 4. SMS text message
 
-While all of these methods work, we strongly recommend getting the Duo Mobile app if you have a smartphone, as the push notifications are the easiest and most consistent because they do not require typing in a code or phone service.
+While all of these methods work, we strongly recommend getting the Duo Mobile app if you have a smartphone, as the push notifications are the easiest and most consistent because they do not require typing in a code or phone service. You can also get the Duo app on a tablet device, so you can use your phone or tablet as the authenticator. 
 
 ## Virtual private network (VPN)
 Some Stanford services (for instance, connection to certain computing clusters) require one to be logged into the Stanford network. If you are off campus, you can still use these services by connecting to a VPN. Instructions for installing a VPN client are here: https://uit.stanford.edu/service/vpn.
