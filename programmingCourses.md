@@ -27,14 +27,15 @@ A little bit more about each class in case you are unsure of what will be the be
 - CS 149 is probably good for you if you have a strong background in CS. Note that CS111: Operating Systems Principles is strong prerequisite for CS149, so check the course website for more information. This goes through more of a hardware perspective than CME 213. 
 - CS 161 is a good foundational course for learning important algorithms. Suggests CS 106B as a prerequisit, so important to be a little familiar with coding. This has intro material for CME305/CS261, so good idea to take beforehand. 
 - CS 166 has great reviews, and is probably an ok substitute for material covered in CME 212. Emphasis on gets good reviews!!!!! Data structures is also just an essential programming course to take, but won't have emphasis on scientific computing that CME211/212 had.
-- CS 168 seems like it goes through a lot of algorithms but not into much depth. Seems like not much previous programming is required? One review said it would be nice to have probability/statistics background.
-- CS 190 requires an application, and has a prereq of CS 140 (operating systems). Definitely a course for strong/experienced programmers.
+- CS 168 seems like it goes through a lot of algorithms but not into much depth. Seems like not much previous programming is required? One review said it would be nice to have probability/statistics background. CS161 is a prereq, so good to know some algorithm/theory beforehand. 
+- CS 190 requires an application, and has a STRONG prereq of CS 140 (operating systems). Definitely a course for strong/experienced programmers. 
 - CS 194 is a group project based course and gives you a TON of freedom. Probably best if you have a project idea in mind (not a lot of instruction).
-- CS 246 is a great class if you are using large datasets and want to learn tools to help with that. Lots of topics covered and "challenging hw assignments". Not an intro class but not extremely rigorous programming wise.
-- CS 295 is a smaller course and has very mixed reviews. Not an introductory class, but unclear how intensive the assignments are.
+- CS 246 is a great class if you are using large datasets and want to learn tools to help with that. Lots of topics covered and "challenging hw assignments". Not an intro class but also not extremely rigorous programming wise. 
+- CS 295 is a smaller course (10 students enrolled last year) and has very **mixed** reviews. Not an introductory class, but unclear how intensive the assignments are. 
 - CS 315B is a good class to learn parallel strategies (Legion/Regent). Offered every other year! Project based class.
 - CS 316/341 have not been offered in a few years and not sure when they will offer again...
 
 Resources for learning more about each class:
 * carta.stanford.edu
-* Explore courses has the schedule and class description as well as the instructor and any TAs. You can try emailing the TAs or going to the first class to see Syllabus/talk more with the instructor and TAs. 
+* Explore courses has the schedule and class description as well as the instructor and any TAs. You can try emailing the TAs or going to the first class to see Syllabus/talk more with the instructor and TAs.
+* Ask in the ICME courses channel on Slack
