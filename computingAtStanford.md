@@ -53,13 +53,10 @@ Some products are free to Stanford students (for instance, [Windows](https://uit
 
 ## Printing
 
-Printing from your personal device at Stanford takes a few minutes to set up. How do I print (https://thehub.stanford.edu/services/print-copy-scan/how-do-i-print).
+There are a couple methods for printing from your personal device at Stanford. Check out [Cardinal Print](https://uit.stanford.edu/service/cardinal-print). 
 
-* Via personal computer: 
- * Connect to the Stanford wireless SSID, Stanford wired, or Stanford VPN network. 
- * Install the [Printer Driver](https://thehub.stanford.edu/services/print-copy-scan/how-do-i-download-install-printer-drivers) on your personal device and access to the Print Queue. A walkthrough is here: https://thehub.stanford.edu/services/print-copy-scan/how-do-i-connect-print-queue. 
-* Via library computers, which does not require any software installation. See http://library.stanford.edu/using/print-copy-scan.
-* Specific instructions for ICME lobby printer: https://icmeintranet.stanford.edu/students/printing (internal ICME site - login required)
+* Cardinal Print gives you the option to print via email/website or by downloading a printer driver. Follow the instructions at the Cardinal Print website.
+* The printer in ICME is now operating with Cardinal Print as well. More ICME printing specific information, including printing budget information can be found on the ICME intranet (requires log-in) [here](https://icmeintranet.stanford.edu/students/stanford-campus-resources/printing).
 
 ## Cluster Computing
 ### What is cluster computing?
@@ -84,6 +81,7 @@ The information about most of the clusters can be found at https://srcc.stanford
   * https://www.sherlock.stanford.edu/
   * Main research cluster accessible by all faculty
   * Faculty can obtain use allocations on both shared and private resources
+  * Requires faculty sponsorship
   * 1672 compute nodes, 44032 CPU cores, 712 GPUs
 * ICME GPU Cluster
   * https://icme.stanford.edu/get-involved/resources/hpc-resources
