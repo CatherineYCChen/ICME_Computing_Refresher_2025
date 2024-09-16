@@ -1,6 +1,6 @@
 # ICME Computing Refresher 2024
 
-Information of ICME Refresher 2024 is available at: [ICME Refresher Course (Sept 16-18 2023)](https://icmerefreshercourse.stanford.edu/icme-refresher-course-schedule)
+Information of ICME Refresher 2024 is available at: [ICME Refresher Course (Sept 16-18 2024)](https://icmerefreshercourse.stanford.edu/icme-refresher-course-schedule)
 
 * Location: Hewlett 102.([Google Map]([https://goo.gl/maps/jwVhSocU3VnhHmyb6](https://www.google.com/maps/place/William+R.+Hewlett+Teaching+Center,+370+Serra+Mall,+Stanford,+CA+94305/data=!4m2!3m1!1s0x808fbb2ae177cc91:0x5351ffed56456da8?sa=X&ved=2ahUKEwiRqKza-raBAxX5I0QIHc6-DjYQ8gF6BAg4EAA&ved=2ahUKEwiRqKza-raBAxX5I0QIHc6-DjYQ8gF6BAg_EAE)))
 * Time: 
