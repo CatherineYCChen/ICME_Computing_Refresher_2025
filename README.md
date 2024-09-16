@@ -26,4 +26,4 @@ Class 2
 * [LaTeX](latex.md)
 * [MATLAB](matlab.md)
 * [Miscellaneous](miscellaneous.md)
-* Survey of previous programming courses 
+* [Programming course discussion](programmingCourses.md) 
