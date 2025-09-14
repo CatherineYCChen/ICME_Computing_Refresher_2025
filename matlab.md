@@ -5,7 +5,8 @@ MATLAB is short for "Matrix Laboratory." It is a scripting language that is desi
 
 * MATLAB Individual Institution License: https://uit.stanford.edu/service/softwarelic/matlab
 * MATLAB Online: https://matlab.mathworks.com/
-
+* MATLAB Reference Page: https://content.mathworks.com/viewer/67b7a53c1a8681508f4d03e0
+  
 ## Basics
 * `x = 5` - Variables are defined with `=`
 * `+` `-` `*` `/` - Basic math operations
