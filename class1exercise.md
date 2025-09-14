@@ -10,6 +10,6 @@ We will use this next class to play around with Git usage and some other softwar
 4. Try the basic Linux commands.
 5. Clone this repository to your directory (either on rice or back on your personal device). It is a useful resource for you to keep this repository somewhere to be able to look back on throughout your first year.  
    
-   `git clone https://github.com/lreeder7/ICME_Computing_Refresher_2024.git`
+   `git clone https://github.com/CatherineYCChen/ICME_Computing_Refresher_2025`
    
    Don't worry if this command doesn't make sense to you right now.  We will go over covers git commands in our next section. 
