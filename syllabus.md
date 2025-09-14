@@ -4,7 +4,7 @@ Information of ICME Refresher 2025 is available at: [ICME Refresher Course (Sept
 
 * Location: Hewlett 102.([Google Map]([https://goo.gl/maps/jwVhSocU3VnhHmyb6](https://www.google.com/maps/place/William+R.+Hewlett+Teaching+Center,+370+Serra+Mall,+Stanford,+CA+94305/data=!4m2!3m1!1s0x808fbb2ae177cc91:0x5351ffed56456da8?sa=X&ved=2ahUKEwiRqKza-raBAxX5I0QIHc6-DjYQ8gF6BAg4EAA&ved=2ahUKEwiRqKza-raBAxX5I0QIHc6-DjYQ8gF6BAg_EAE)))
 * Time: 
-  * 2:15 PM - 3:25 PM, Monday, 09/15
+  * 2:10 PM - 3:20 PM, Monday, 09/15
   * 3:30 PM – 4:30 PM, Monday, 09/15
 
 ----
