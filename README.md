@@ -1,4 +1,4 @@
-# ICME Refresher 2024 - Computing
+# ICME Refresher 2025 - Computing
 
 Welcome to the ICME Computing Refresher. This git repository will host materials and files used in the class.
 
