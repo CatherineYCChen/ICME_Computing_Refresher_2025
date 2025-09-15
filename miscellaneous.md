@@ -59,8 +59,8 @@ The good news is that starting this month (Sep 2021), Stanford University’s ca
 
 ## Scientific Computing Courses at Stanford
 Here are a list of scientific computing courses at Stanford:
-* CME 211 - Basics of Python and C++
-* ~~CME 212 - Scientific computing with C++~~
+* ~~CME 211 - Basics of Python and C++~~
+* CME 212 - Scientific computing with C++
 * CME 213 - Parallel computing (with an emphasis on CUDA)
 * ~~CME 214 - Modern Fortran~~
 * CME 323 - Distributed Algorithms
