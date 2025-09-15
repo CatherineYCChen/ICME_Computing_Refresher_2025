@@ -15,7 +15,7 @@ Linux is an open source operating system based on Unix, but not directly decende
 Now although Linux and Unix are different, from a user's perspective, they are about the same. The commands for both are nearly the same. POSIX standards mean that Unix software will work on Linux. Hence, I will use the terms interchangeably. 
 
 ## Basic Linux Commands
-Now we will begin to go over the basic Linux commands and how to use them. We will got through some interactive exercises on Farmshare later, but here is a list of commonly used Linux commands sorted by general function
+Now we will begin to go over the basic Linux commands and how to use them. Here is a list of commonly used Linux commands sorted by general function
 
 ### General Commands
 * `echo <arg>` - Print arguments to display
