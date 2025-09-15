@@ -125,8 +125,6 @@ Disconnect: `exit`
 
 Here is a link to more information about connecting to Farmshare: https://srcc.stanford.edu/farmshare2/connecting
 
-For next class, you will be asked to connect to Farmshare from your own computer with X11 forwarding, so we can follow some Linux tutorials. Note that CME 211 will require you to run programs on Farmshare, so this information will be included at the beginning of that class as well. 
-
 ### Farmshare software
 Farmshare is how the university distributes access to a variety of software. The list of software can be found at https://srcc.stanford.edu/farmshare2/software or by using the `module avail` command in the terminal. Some of the highlights include:
 * Anaconda
